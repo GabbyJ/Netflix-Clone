@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -11,23 +11,23 @@
   <!--CSS Stylesheets-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/tindog-icon.png">
+  <link rel="icon" href="images/notflix-icon.png">
 
   <!--Font Awesome-->
   <script src="https://kit.fontawesome.com/31fc375084.js"></script>
 
-  <title>Hello, world!</title>
+  <title>Notflix</title>
 </head>
 
 <body>
   
     <!-- Header -->
-    <div class="container-fluid">
-      <div class="row">
+    <img class="banner"src="images/notflix-background.jpg" alt="Notflix-background">
+    <div class="container-fluid title">
+      <div class="row nav">
+          
         <div class="col-6">
-          <a href="https://fontmeme.com/netflix-font/"><img
-              src="https://fontmeme.com/permalink/190909/31a1a14f2752d7ce6f62b9aad71ebd44.png" alt="netflix-font"
-              border="0"></a>
+          <a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/190909/915370ab9372d1f46e4f37cbf91d9672.png" alt="netflix-font" border="0"></a>
         </div>
         <div class="col-6 sign-in-block">
           <button type="button" class="btn btn-danger sign-in">Sign In</button>
@@ -35,28 +35,34 @@
       </div>
     
     <!-- Title -->
-    <h1>All of Netflix.</h1>
-    <h1>Free for 30 days.</h1>
+    <div class="title-words">
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <p>Watch anywhere. Cancel anytime.</p>
     <button type="button" class="btn btn-danger btn-lg red-free-trial">TRY 30 DAYS FREE&nbsp;&nbsp;&nbsp;&nbsp;<i
         class="fas fa-chevron-right"></i></button>
       </div>
+      </div>
 
-    <hr>
+    
     <!--Tv Section-->
-    <div class="container-fluid">
+    <div id="tv-section"> 
+        <hr class="title-to-tv"> 
+    <div class="container-fluid tv-tv">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wording">
           <h1>Enjoy on your TV.</h1>
-          <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+          <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
           <button type="button" class="btn btn-outline-light btn-lg black-free-trial">TRY 30 DAYS FREE&nbsp;&nbsp;&nbsp;&nbsp;<i
               class="fas fa-chevron-right"></i></button>
         </div>
         <div class="col-md-6">
           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
             alt="various devices">
+            <!-- <video autoplay loop muted src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type=vide/mp4></video> -->
         </div>
       </div>
     </div>
+  </div>
 
     <hr>
     <!--Download Section-->
@@ -66,9 +72,9 @@
           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
             alt="various devices">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wording">
           <h1>Download your shows to watch on the go.</h1>
-          <p>Save your data and watch all your favorites offline.</p>
+          <h2>Save your data and watch all your favorites offline.</h2>
           <button type="button" class="btn btn-outline-light btn-lg black-free-trial">TRY 30 DAYS FREE&nbsp;&nbsp;&nbsp;&nbsp;<i
               class="fas fa-chevron-right"></i></button>
         </div>
@@ -79,13 +85,13 @@
     <!--Watch Anywhere Section-->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wording">
           <h1>Watch everywhere.</h1>
-          <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+          <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</h2>
           <button type="button" class="btn btn-outline-light btn-lg black-free-trial">TRY 30 DAYS FREE&nbsp;&nbsp;&nbsp;&nbsp;<i
               class="fas fa-chevron-right"></i></button>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 watch-everywhere-img">
           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
             alt="various devices">
         </div>
@@ -102,16 +108,16 @@
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
-                What is Netflix?
+                What is Notflix? <i class="fas fa-plus"></i> 
               </button>
             </h2>
           </div>
-
+          <hr class="faq-line-break">
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              <p>Notflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
                 documentaries, and more on thousands of internet-connected devices.</p>
               <p>You can watch as much as you want, whenever you want without a single commercial – all for one low
                 monthly price. There's always something new to discover and new TV shows and movies are added every
@@ -122,15 +128,16 @@
         <div class="card">
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                How much does Netflix cost?
+                How much does Notflix cost? <i class="fas fa-plus"></i>
               </button>
             </h2>
           </div>
+          <hr class="faq-line-break">
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one low fixed
+              <p>Watch Notflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one low fixed
                 monthly fee. Plans start from $8.99 a month. No extra costs or contracts.</p>
             </div>
           </div>
@@ -138,36 +145,37 @@
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="false" aria-controls="collapseThree">
-                Where can I watch?
+                Where can I watch? <i class="fas fa-plus"></i>
               </button>
             </h2>
           </div>
+          <hr class="faq-line-break">
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch
-                instantly on the web at netflix.com from your personal computer or on any internet connected device that
-                offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+              <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Notflix account to watch
+                instantly on the web at Notflix.com from your personal computer or on any internet connected device that
+                offers the Notflix app, including smart TVs, smartphones, tablets, streaming media players and game
                 consoles.</p>
               <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to
-                watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                watch while you're on the go and without an internet connection. Take Notflix with you anywhere.</p>
             </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header" id="headingFour">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseFour"
                 aria-expanded="false" aria-controls="collapseFour">
-                How do I cancel?
+                How do I cancel? <i class="fas fa-plus"></i>
               </button>
             </h2>
           </div>
-
+          <hr class="faq-line-break">
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
+              <p>Notflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your
                 account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
             </div>
           </div>
@@ -175,34 +183,34 @@
         <div class="card">
           <div class="card-header" id="headingFive">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseFive"
                 aria-expanded="false" aria-controls="collapseFive">
-                What can I watch on Netflix?
+                What can I watch on Notflix? <i class="fas fa-plus"></i>
               </button>
             </h2>
           </div>
-
+          <hr class="faq-line-break">
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
-                Netflix originals, and more. Watch as much as you want, anytime you want. Join free for 30 days to see
-                everything Netflix has to offer.</p>
+              <p>Notflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning
+                Notflix originals, and more. Watch as much as you want, anytime you want. Join free for 30 days to see
+                everything Notflix has to offer.</p>
             </div>
           </div>
         </div>
         <div class="card">
           <div class="card-header" id="headingSix">
             <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+              <button class="btn btn-link collapsed faq-questions" type="button" data-toggle="collapse" data-target="#collapseSix"
                 aria-expanded="false" aria-controls="collapseSix">
-                How does the free trial work?
+                How does the free trial work? <i class="fas fa-plus"></i>
               </button>
             </h2>
           </div>
-
+          <hr class="faq-line-break">
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
             <div class="card-body">
-              <p>Try us free for 30 days! If you enjoy your Netflix trial, do nothing and your membership will
+              <p>Try us free for 30 days! If you enjoy your Notflix trial, do nothing and your membership will
                 automatically continue for as long as you choose to remain a member. Cancel anytime before your trial
                 ends and you won’t be charged. There’s no complicated contract, no cancellation fees, and no commitment.
                 Cancel online anytime, 24 hours a day.</p>
@@ -219,7 +227,7 @@
       <hr>
     </div>
     <!-- Footer -->
-    <div class="container-fluid">
+    <div class="container-fluid footer">
     <p>Questions? Call 1-866-579-7172</p>
     <div class="row">
       <div class="col-lg-3 col-md-4 col-sm-6 col-6">FAQ</div>
@@ -238,11 +246,11 @@
       <div class="col-lg-3 col-md-4 col-sm-6 col-6">Contact Us</div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6">Speed Test</div>
       <div class="col-lg-3 col-md-4 col-sm-6 col-6">Legal Notices</div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">Netflix Originals</div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-6">Notflix Originals</div>
     </div>
 
-    <div class="dropdown">
-      <button class="btn btn-outline-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+    <div class="dropdown language-button">
+      <button class="btn btn-outline-light btn-lg dropdown-toggle languages" type="button" id="dropdownMenuButton"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fas fa-globe"></i> English
       </button>
